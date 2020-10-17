@@ -33,3 +33,23 @@ body {
 
 }
 
+.to-do{
+  &__container{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    align-items: center;
+    background-color: skyblue;
+  }
+
+  &__title {
+    color: gray;
+    font-size: 24px;
+  }
+  
+  &__container-card {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
